@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* align-items: center;
+    justify-content: center; */
+    border: solid;
+    height: 500px;
+    width: 500px;
+    margin-top: 30px;
+}
+
+.container div {
+    border: 1px solid;
+}
+
+.row {
+    display: flex;
+    flex: 1;
+}
+
+.cell {
+    flex: 1;
+}
